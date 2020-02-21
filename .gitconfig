@@ -188,3 +188,10 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	name = Matt Morgan
+	email = matt@mattmrgn.com
+
+[includeIf "gitdir:~/_freightflows/"]
+    path = ~/_freightflows/.gitconfig
